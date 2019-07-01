@@ -10,7 +10,7 @@ from keras.layers.normalization import BatchNormalization
 from keras import optimizers
 from keras.callbacks import LearningRateScheduler, TensorBoard, ModelCheckpoint
 
-from networks.train_plot import PlotLearning
+from train_plot import PlotLearning
 
 # Code taken from https://github.com/BIGBALLON/cifar-10-cnn
 class NetworkInNetwork:
