@@ -14,6 +14,9 @@ from networks.train_plot import PlotLearning
 
 # Code taken from https://github.com/BIGBALLON/cifar-10-cnn
 class NetworkInNetwork:
+    """
+    Network in Network Class
+    """
     def __init__(self, epochs=200, batch_size=128, load_weights=True):
         self.name               = 'net_in_net'
         self.model_filename     = 'networks/models/net_in_net.h5'
